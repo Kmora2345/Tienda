@@ -12,7 +12,7 @@ import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 
 @Configuration
 public class ProjectConfig implements WebMvcConfigurer{
-    trytrytrytr
+    
     @Bean
     public LocaleResolver localeResolver(){
       var slr  = new SessionLocaleResolver();
@@ -41,4 +41,6 @@ public class ProjectConfig implements WebMvcConfigurer{
         messageSource.setDefaultEncoding("UTF-8");
         return messageSource;
     }
+    
+    // notas de mejora
 }
